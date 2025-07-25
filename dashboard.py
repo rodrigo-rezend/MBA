@@ -4,6 +4,8 @@ from ia_insights import gerar_insight
 from pdf_utils import exportar_pdf
 import matplotlib.pyplot as plt
 
+## Disciplina de bigData MBA - Projeto de Análise de Gastos Pessoais
+
 def salvar_grafico_categoria(gastos, path="grafico_categoria.png"):
     cat = gastos.groupby('categoria')['valor'].sum().sort_values(ascending=False)
     plt.figure(figsize=(6, 3))
