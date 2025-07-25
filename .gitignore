@@ -1,0 +1,17 @@
+.env
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+*.pyo
+*.png
+output/
+data/
+relatorio_gastos.pdf.env
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+*.pyo
+*.png
+output/
+data/
+relatorio_gastos.pdf
