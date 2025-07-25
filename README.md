@@ -1,6 +1,34 @@
-<<<<<<< HEAD
-# MBA-Projeto
-=======
-# MBA
->>>>>>> 5ed0ec90ca85ace646f39b04f54097c5d6fe8e18
-Projeto acadêmico que demonstra o uso de processamento distribuído com PySpark para análise de gastos pessoais. A solução realiza ingestão, transformação e agregação de dados em Spark, preparando-os para visualização e geração de relatórios financeiros.
+# Painel Inteligente de Gastos Pessoais
+
+Este projeto demonstra, de forma prática, o uso de **processamento distribuído com PySpark** para análise de dados financeiros pessoais. Desenvolvido como atividade para a disciplina de Big Data & Hadoop, o sistema realiza ingestão, transformação e agregação de dados via Spark, preparando-os para visualização interativa em Streamlit.
+
+## Funcionalidades
+
+- Upload de planilhas de gastos (CSV)
+- Processamento dos dados com PySpark: agregação, limpeza e análise por categoria/mês
+- Visualização dos resultados em gráficos interativos (Streamlit)
+- Input de receita mensal e análise personalizada com IA (OpenAI)
+- Geração de relatório financeiro completo em PDF
+
+## Tecnologias Utilizadas
+
+- **PySpark**: processamento distribuído
+- **Pandas**: manipulação complementar de dados
+- **Streamlit**: visualização web interativa
+- **OpenAI GPT**: geração de insights automáticos
+- **FPDF & Matplotlib**: geração de gráficos e relatórios PDF
+
+## Como executar
+
+1. Instale as dependências do projeto (requirements.txt)
+2. Suba a aplicação com `streamlit run dashboard.py`
+3. Importe sua planilha de gastos e informe a receita mensal
+4. Explore gráficos, métricas e gere relatórios com insights personalizados
+
+## Observação
+
+Para usar a geração de insights via IA, é necessário configurar sua chave OpenAI no arquivo `.env` (não versionado).
+
+---
+
+Projeto desenvolvido para fins acadêmicos – MBA Big Data & Hadoop.
