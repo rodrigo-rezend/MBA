@@ -1,8 +1,6 @@
 import openai
 import os
 from dotenv import load_dotenv
-
-# Carrega variáveis do .env
 load_dotenv()
 
 # Prompt especialista financeiro

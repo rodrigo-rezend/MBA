@@ -1,6 +1,6 @@
 import openai
 
-client = openai.OpenAI(api_key="SUA-CHAVE-OPENAI-AQUI")
+client = openai.OpenAI(api_key="")
 response = client.chat.completions.create(
     model="gpt-3.5-turbo",
     messages=[
